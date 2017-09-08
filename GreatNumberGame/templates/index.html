@@ -1,0 +1,19 @@
+<html>
+        <head>
+           <title>The Great Number Game</title>
+        </head>
+        <body>
+          <h1>Welcome to the Great Number Game</h1>
+          <h3>I am thinking of a number between 1 and 100</h3>
+          <p>Take a guess! </p>
+          <form action='/guess' method='post'>
+             <input type='text' name='guess'>
+            <input type='submit' value='guess'>
+        </form>
+        <h3>{{ session['app.answer'] }}</h3>
+        <form type= {{ session['app.restartbutton'] }} action='/reset' method='post'>
+        <button type="submit" value="Reset">Play Again</button>
+        </form>
+        </body>
+    </html>
+    
