@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#topbar{
+    height: 100px;
+    width: 900px;
+    background-color: grey;
+    display: block;
+}
+#middle{
+    height: 400px;
+    width: 900px;
+    background-color: #D9B1B1;
+    display: block;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 10px;
+}
